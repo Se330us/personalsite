@@ -5,17 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Анимки CSS -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Magnific CSS для всплывающих окон -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Для возможных слайдеров CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Line Awesome CSS -->
+        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+        <!-- Stylesheet CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Stylesheet Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
-        <!-- Favicon -->
+        <!-- Иконка сайта -->
         <link rel="icon" type="images/png" href="assets/images/favicon.png">
-        <!-- Title -->
+        <!-- Название страницы -->
         <title>Спудко Михаил - Web Developer</title>
     </head>
 
     <!-- Добавление плагина ScrollSpy для отслеживания прокрутки внутри сайта -->
-    <body data-offset="70">
+    <body data-spy="scroll" data-offset="70">
+        <div class="preloader">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="lds-hourglass"></div>
+                </div>
+            </div>
+        </div>
 
         <!-- Навбар - Начало -->
         <nav class="navbar fixed-top navbar-expand-md main-navbar personal-nav">
@@ -52,6 +70,45 @@
             </div>
         </nav>
         <!-- Навбар - Конец -->
+        <!-- Блок Личная информация - Начало -->
+        <div id="home" class="personal-banner-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="personal-banner-img">
+                            <img src="assets/images/portfolio/cvphoto.jpg" alt="Image">
+                            <div class="personal-shape">
+                                <img src="assets/images/shape/shape24.png" class="shape-24" alt="Shape">
+                                <img src="assets/images/shape/shape2.png" class="shape-2" alt="Shape">
+                                <img src="assets/images/shape/shape13.png" class="shape-13" alt="Shape">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="personal-bennr-text">
+                            <span>Приветствую, я</span>
+                            <h1>Спудко Михаил</h1>
+                            <h3>Frontend-разработчик | UI/UX Дизайнер | Системный аналитик</h3>
+                            <p>Ориентированный на результат специалист, с отличными коммуникативными навыками, а также глубоким пониманием цифровых систем и их процессов.</p>
+
+                            <div class="personal-btn">
+                                <a href="#" class="default-btn personal-btn-1 mr-3">Скачать резюме</a>
+                                <a href="#contact" class="default-btn personal-btn-2">Связаться со мной</a>
+                            </div>
+
+                            <div class="personal-text-shape">
+                                <img src="assets/images/shape/shape2.png" class="shape-2" alt="Image">
+                                <img src="assets/images/shape/shape14.png" class="shape-14" alt="Image">
+                                <img src="assets/images/shape/shape4.png" class="shape-4" alt="Image">
+                                <img src="assets/images/shape/shape22.png" class="shape-22" alt="Image">
+                                <img src="assets/images/shape/shape23.png" class="shape-23" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Блок Личная информация - Кончало -->
         <script src="assets/js/bootstrap.min.js"></script>
     </body>
 </html>
