@@ -23,6 +23,35 @@
 			$(this).collapse('hide');
 		}
 	});	
+	// AJAX скрипт - набросок для контакта через письмо JS
+	$(".newsletter-form").ajaxChimp({
+		url: "#;id=42d6d188d9", 
+		callback: callbackFunction
+	});
 
+	// Прелоадер (next door которая крутится при загрузке)
+	jQuery(window).on('load',function(){
+		jQuery(".preloader").fadeOut(500);
+	});
+
+	// Кнопка вверх
+	$(window).on('scroll', function() {
+        if ($(this).scrollTop() > 0) {
+            $('.go-top').addClass('active');
+        } else {
+            $('.go-top').removeClass('active');
+        }
+	});	
+    $(function(){
+        $(window).on('scroll', function(){
+            var scrolled = $(window).scrollTop();
+            if (scrolled > 600) $('.go-top').addClass('active');
+            if (scrolled < 600) $('.go-top').removeClass('active');
+        });  
+        
+        $('.go-top').on('click', function() {
+            $("html, body").animate({ scrollTop: "0" },  500);
+        });
+    });
 
 })(jQuery);
