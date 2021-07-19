@@ -11,7 +11,7 @@
 	});	
 	
 	$('.navbar-nav li a').on('click', function(e){
-		var anchor = $(this);
+		let anchor = $(this);
 		$('html, body').stop().animate({
 			scrollTop: $(anchor.attr('href')).offset().top - 50
 		}, 1000);
@@ -23,11 +23,9 @@
 			$(this).collapse('hide');
 		}
 	});	
-	// AJAX скрипт - набросок для контакта через письмо JS
-	$(".newsletter-form").ajaxChimp({
-		url: "#;id=42d6d188d9", 
-		callback: callbackFunction
-	});
+	
+	// WOW JS - для анимации во время прокрутки
+	new WOW().init();
 
 	// Прелоадер (next door которая крутится при загрузке)
 	jQuery(window).on('load',function(){
@@ -44,7 +42,7 @@
 	});	
     $(function(){
         $(window).on('scroll', function(){
-            var scrolled = $(window).scrollTop();
+            let scrolled = $(window).scrollTop();
             if (scrolled > 600) $('.go-top').addClass('active');
             if (scrolled < 600) $('.go-top').removeClass('active');
         });  

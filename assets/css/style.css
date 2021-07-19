@@ -240,6 +240,401 @@ p:last-child {
   left: 0;
 }
 
+/* Футер */
+.footer-area {
+  background-color: #567df4;
+}
+
+.footer-area.bor-radius-right {
+  border-radius: 0px 130px 0px 0px;
+}
+
+.footer-area.bor-radius-top {
+  border-radius: 130px 130px 0px 0px;
+}
+
+.footer-area.pt-200 {
+  padding-top: 200px;
+}
+
+.footer-area .footer-widget {
+  margin-bottom: 30px;
+}
+
+.footer-area .footer-widget .logo {
+  max-width: 130px;
+  margin-bottom: 20px;
+}
+
+.footer-area .footer-widget p {
+  color: #ffffff;
+}
+
+.footer-area .footer-widget .footer-social {
+  padding-left: 0;
+  margin: 25px 0 0 0;
+}
+
+.footer-area .footer-widget .footer-social li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.footer-area .footer-widget .footer-social li a i {
+  color: #ffffff;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-1 {
+  background-color: #fa866b;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-2 {
+  background-color: #f5d150;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-3 {
+  background-color: #58d7c1;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-4 {
+  background-color: #fb9ed7;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-1 {
+  background-color: #58d7c1;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-2 {
+  background-color: #fb9ed7;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-3 {
+  background-color: #fa866b;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-4 {
+  background-color: #f5d150;
+}
+
+.footer-area .footer-widget .title {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.footer-area .footer-widget .footer-text {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.footer-area .footer-widget .footer-text li {
+  padding: 0 0 0 20px;
+  margin: 0 0 7px 0;
+  position: relative;
+}
+
+.footer-area .footer-widget .footer-text li a {
+  color: #ffffff;
+}
+
+.footer-area .footer-widget .footer-text li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.footer-area .footer-widget .footer-text li a:hover {
+  color: #242424;
+}
+
+.footer-area .footer-widget .footer-image img {
+  margin-bottom: 10px;
+}
+
+.footer-area .copyright-text {
+  margin-top: 70px;
+  text-align: center;
+  padding: 25px 0;
+  border-top: 1px solid #6b8df5;
+}
+
+.footer-area .copyright-text p {
+  color: #ffffff;
+}
+
+.footer-area .copyright-text p a {
+  color: #f5d150;
+}
+
+.footer-area .copyright-text p a:hover {
+  color: #fa866b;
+}
+
+/* Предзагрузка */
+.preloader {
+  position: fixed;
+  z-index: 999999;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.preloader .lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.preloader .lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 32px solid #567df4;
+  border-color: #567df4 transparent #567df4 transparent;
+  -webkit-animation: lds-hourglass 1.2s infinite;
+          animation: lds-hourglass 1.2s infinite;
+}
+
+@-webkit-keyframes lds-hourglass {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+            transform: rotate(900deg);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: rotate(1800deg);
+            transform: rotate(1800deg);
+  }
+}
+
+@keyframes lds-hourglass {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+            transform: rotate(900deg);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: rotate(1800deg);
+            transform: rotate(1800deg);
+  }
+}
+
+/* Стрелка подняться */
+.go-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 9999;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.go-top.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.go-top i {
+  background: #242424;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.go-top i:hover {
+  background: #567df4;
+  color: #ffffff;
+}
+
+/* Блок навыков */
+.our-services-area {
+  background-color: #ffffff;
+}
+
+.my-skills-card {
+  padding: 40px 30px;
+  -webkit-box-shadow: 0px 0px 20px 1px #e0dddd;
+          box-shadow: 0px 0px 20px 1px #e0dddd;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.my-skills-card i {
+  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.my-skills-card i.bg-1 {
+  background-color: #567df4;
+}
+
+.my-skills-card i.bg-2 {
+  background-color: #f6d665;
+}
+
+.my-skills-card i.bg-3 {
+  background-color: #fb9ed7;
+}
+
+.my-skills-card i.bg-4 {
+  background-color: #a78bc5;
+}
+
+.my-skills-card i.bg-5 {
+  background-color: #f47456;
+}
+
+.my-skills-card i.bg-6 {
+  background-color: #58d7c1;
+}
+
+.my-skills-card i i {
+  position: relative;
+  left: -15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.my-skills-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.my-skills-card:hover {
+  margin-top: -5px;
+  -webkit-box-shadow: 0px 8px 20px 0px #b9b8b9;
+          box-shadow: 0px 8px 20px 0px #b9b8b9;
+  background-color: #567df4;
+}
+
+.my-skills-card:hover i {
+  background-color: #ffeae5;
+  color: #f47456;
+}
+
+.my-skills-card:hover h3 {
+  color: #ffffff;
+}
+
+.my-skills-card:hover p {
+  color: #f9f9f9;
+}
+
+/* Блок Портфолио */
+.case-study-area {
+  background-color: #f5f4ff;
+}
+
+.case-study-card {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.case-study-card img {
+  border-radius: 10px;
+}
+
+.case-study-card .caption {
+  padding: 15px 25px;
+  position: absolute;
+  background-color: #567df4;
+  border-radius: 10px;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.case-study-card .caption .study-text {
+  text-align: center;
+  position: relative;
+}
+
+.case-study-card .caption .study-text a {
+  color: #ffffff;
+}
+
+.case-study-card .caption .study-text a i {
+  font-size: 30px;
+}
+
+.case-study-card .caption .study-text a:hover {
+  color: #242424;
+}
+
+.case-study-card .caption .study-text h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.case-study-card .caption .study-text p {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.case-study-card:hover .caption {
+  top: 0;
+}
+
+
+/* Панель навигации */
 .main-navbar.personal-nav {
   border-bottom: 1px solid #4b199c;
 }
@@ -371,6 +766,64 @@ p:last-child {
 .personal-banner-area .personal-bennr-text .personal-btn .default-btn.personal-btn-2 {
   color: #ffffff;
 }
+
+.personal-banner-area .personal-bennr-text .personal-btn .default-btn.personal-btn-2:hover {
+  background-color: #ffba00;
+  border: 1px solid #ffba00;
+  color: #ffffff;
+}
+
+.personal-banner-area .personal-bennr-text .personal-text-shape .shape-2 {
+  position: absolute;
+  bottom: -140px;
+  right: 0;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+}
+
+.personal-banner-area .personal-bennr-text .personal-text-shape .shape-14 {
+  position: absolute;
+  bottom: 25px;
+  right: -90px;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+          animation: moveLeftBounce 3s linear infinite;
+}
+
+.personal-banner-area .personal-bennr-text .personal-text-shape .shape-4 {
+  position: absolute;
+  top: -130px;
+  right: 0;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+}
+
+.personal-banner-area .personal-bennr-text .personal-text-shape .shape-22 {
+  position: absolute;
+  top: -40px;
+  right: -100px;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+          animation: moveLeftBounce 3s linear infinite;
+}
+
+.personal-banner-area .personal-bennr-text .personal-text-shape .shape-23 {
+  position: absolute;
+  top: -130px;
+  left: 20px;
+  -webkit-animation-name: rotateme;
+          animation-name: rotateme;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+/* Кубики с информацией */
+.information-area {
+  background-color: #f5f4ff;
+}
+
 .information-card {
   text-align: center;
   margin-bottom: 30px;
@@ -426,10 +879,10 @@ p:last-child {
   color: #242424;
 }
 
-/* Личная информация 2 */
+/* Блок Интро */
 .my-intro {
   padding-bottom: 70px;
-  background-color: #f5f4ff;
+  background-color: #ffffff;
 }
 
 .my-intro .who-iam-are-text {
@@ -519,7 +972,7 @@ p:last-child {
   margin-bottom: 20px;
 }
 
-/* Вращение значков */
+/* Поворот фигур */
 .rotateme {
   -webkit-animation-name: rotateme;
           animation-name: rotateme;
@@ -643,7 +1096,7 @@ p:last-child {
   }
 }
 
-/* Конец вращений для значков */
+/* Конец поворота фигур */
 @-webkit-keyframes moveBounce {
   0% {
     -webkit-transform: translateY(0px);
