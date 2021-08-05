@@ -974,7 +974,7 @@ p:last-child {
 }
 
 .my-intro .who-iam-are-text {
-  display: inline-flex;
+  display: flex;
   font-weight: 600;
   margin: 0 auto 60px;
 }

@@ -39,13 +39,6 @@
   .section-title h2 {
     font-size: 25px;
   }
-  .features-area .features-card-content .title {
-    font-size: 23px;
-    margin-bottom: 25px;
-  }
-  .features-area .features-contant {
-    margin-bottom: 30px;
-  }
   .footer-area.pt-200 {
     padding-top: 150px;
   }
@@ -86,12 +79,6 @@
   .studying-slider .studying-slider-item::before {
     display: none;
   }
-  .fun-facts-area .single-fun-facts h3 {
-    font-size: 30px;
-  }
-  .fun-facts-area .single-fun-facts i {
-    top: 0;
-  }
   .choose-us-area .chooses-img-contant {
     padding-bottom: 50px;
   }
@@ -101,15 +88,27 @@
   .who-iam-area .who-iam-are-img {
     margin-top: 30px;
   }
-  .who-iam-area .who-iam-are-img .we-are-img .we-are-1 {
+  .who-iam-area .who-iam-are-img .iam-are-img .iam-are-1 {
     max-width: 120px;
     right: 0;
     left: 0;
     margin: auto;
     bottom: 0;
   }
-  .who-iam-area .who-iam-are-img .we-are-img .we-are-2 {
+  .who-iam-area .who-iam-are-img .iam-are-img .iam-are-2 {
     max-width: 100px;
+  }
+  .my-intro .blink {
+    display: flex;
+    -webkit-animation: blink 3s linear infinite;
+    animation: blink 2s linear infinite;
+    margin-top: 3px;
+  }
+  .my-intro .who-iam-are-text {
+    display: flex;
+    font-weight: 600;
+    margin: 0 auto 60px;
+    flex-direction: column;
   }
   .case-study-card {
     text-align: center;
@@ -156,21 +155,6 @@
   .case-study-card .caption {
     padding: 45px 15px;
   }
-  /* Seo Marketing Responsive */
-  .main-navbar.seo-nav .navbar-nav .nav-link {
-    margin: 0 10px;
-  }
-  .main-navbar.seo-nav .nav-btn .default-btn {
-    padding: 8px 20px;
-    font-size: 15px;
-  }
-  .seo-banner-area {
-    text-align: center;
-  }
-  .seo-banner-area .seo-banner-text h1 {
-    font-size: 50px;
-    margin-bottom: 25px;
-  }
   .pricing-tab .tabs li.save-card {
     right: 19%;
   }
@@ -214,20 +198,6 @@
   .personal-banner-area .personal-bennr-text p {
     font-size: 16px;
   }
-  .choose-us-area .chooses-img-contant {
-    margin-bottom: 30px;
-  }
-  .choose-us-area .chooses-img-contant .choose-us-img {
-    text-align: center;
-  }
-  .choose-us-area .chooses-img-contant .choose-us-img .popup-video {
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
-    left: 0;
-  }
   .who-iam-area .who-iam-are-img {
     margin-top: 30px;
   }
@@ -264,87 +234,6 @@
   }
   .personal-banner-area .personal-bennr-text .personal-text-shape .shape-23 {
     top: -80px;
-  }
-  .fun-facts-area .single-fun-facts {
-    padding-left: 80px;
-  }
-  .fun-facts-area .single-fun-facts i {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    line-height: 60px;
-  }
-  .fun-facts-area .single-fun-facts h3 {
-    font-size: 30px;
-  }
-  .choose-us-area .chooses-img-contant .section-title h2 {
-    font-size: 35px;
-  }
-  /* Seo Marketing Responsive */
-  .seo-banner-area .seo-img-contant .seo-img .seo-img-2 {
-    right: -25px;
-  }
-  .seo-banner-area .seo-banner-text h1 {
-    font-size: 45px;
-    margin-bottom: 25px;
-  }
-  .about-us-area .about-us-text .about-card {
-    padding-left: 55px;
-  }
-  .about-us-area .about-us-text .about-card h3 {
-    font-size: 35px;
-  }
-  .about-us-area .about-us-text .about-card p {
-    font-size: 14px;
-  }
-  .seo-banner-area .seo-shape2 .shape-14 {
-    bottom: 15px;
-  }
-  .choose-card h3 {
-    font-size: 22px;
-  }
-  .choose-us-area .chooses-img-contant .choose-us-img .choose-img {
-    left: -30px;
-  }
-  .pricing-tab .tabs li.save-card {
-    right: 27%;
-  }
-  /* Startup Agency Responsive  */
-  .startup-banner-area .startup-banner-text h1 {
-    font-size: 45px;
-    line-height: 1.4;
-    margin-bottom: 30px;
-  }
-  .startup-banner-area .banner-video-contant .popup-video {
-    left: 0;
-    right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%) !important;
-            transform: translateY(-50%) !important;
-    bottom: auto;
-  }
-  .about-us-two .about-two-img .about-shape .shape-17 {
-    max-width: 420px;
-  }
-  .aweseome-area .aweseome-img .awesome-1 {
-    max-width: 100%;
-  }
-  .case-study-card .caption {
-    padding: 30px 22px;
-  }
-  .case-study-card .caption .study-text h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  .case-study-card .caption .study-text p {
-    margin-bottom: 0;
-  }
-  .studying-slider.owl-theme .owl-nav .owl-prev, .studying-slider.owl-theme .owl-nav .owl-next {
-    left: 40px;
-  }
-  .studying-slider.owl-theme .owl-nav .owl-next {
-    left: auto;
-    right: 40px;
   }
 }
 

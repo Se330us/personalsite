@@ -23,6 +23,22 @@
 			$(this).collapse('hide');
 		}
 	});	
+
+
+	// Слайдер
+	$('.studying-slider').owlCarousel({
+		items: 1,
+		loop: true,
+		margin: 0,
+		nav: true,
+		autoplay: true,
+		autoplayHoverPause: true,
+		dots: false,
+		navText: [
+			"<i class='las la-long-arrow-alt-left'></i>",
+			"<i class='las la-long-arrow-alt-right'></i>"
+		]
+	})
 	
 	// WOW JS - для анимации во время прокрутки
 	new WOW().init();

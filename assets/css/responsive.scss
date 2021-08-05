@@ -1,10 +1,7 @@
 /* Личная информация */
 /* Интро */
-/* Seo Marketing Responsive */
 /* Личная информация */
-/* Личная информация */
-/* Seo Marketing Responsive */
-/* Startup Agency Responsive  */
+/* Личная информация 2*/
 /*# sourceMappingURL=responsive.css.map */
 @media only screen and (max-width: 767px) {
 	.main-navbar {
@@ -47,17 +44,6 @@
 		}
 		h2 {
 			font-size: 25px;
-		}
-	}
-	.features-area {
-		.features-card-content {
-			.title {
-				font-size: 23px;
-				margin-bottom: 25px;
-			}
-		}
-		.features-contant {
-			margin-bottom: 30px;
 		}
 	}
 	.footer-area.pt-200 {
@@ -105,16 +91,6 @@
 			}
 		}
 	}
-	.fun-facts-area {
-		.single-fun-facts {
-			h3 {
-				font-size: 30px;
-			}
-			i {
-				top: 0;
-			}
-		}
-	}
 	.choose-us-area {
 		.chooses-img-contant {
 			padding-bottom: 50px;
@@ -132,18 +108,32 @@
 	.who-iam-area {
 		.who-iam-are-img {
 			margin-top: 30px;
-			.we-are-img {
-				.we-are-1 {
+			.iam-are-img {
+				.iam-are-1 {
 					max-width: 120px;
 					right: 0;
 					left: 0;
 					margin: auto;
 					bottom: 0;
 				}
-				.we-are-2 {
+				.iam-are-2 {
 					max-width: 100px;
 				}
 			}
+		}
+	}
+	.my-intro {
+		.blink {
+			display: flex;
+			-webkit-animation: blink 3s linear infinite;
+			animation: blink 2s linear infinite;
+			margin-top: 3px;
+		}
+		.who-iam-are-text {
+			display: flex;
+			font-weight: 600;
+			margin: 0 auto 60px;
+			flex-direction: column;
 		}
 	}
 	.case-study-card {
@@ -202,28 +192,6 @@
 			padding: 45px 15px;
 		}
 	}
-	.main-navbar.seo-nav {
-		.navbar-nav {
-			.nav-link {
-				margin: 0 10px;
-			}
-		}
-		.nav-btn {
-			.default-btn {
-				padding: 8px 20px;
-				font-size: 15px;
-			}
-		}
-	}
-	.seo-banner-area {
-		text-align: center;
-		.seo-banner-text {
-			h1 {
-				font-size: 50px;
-				margin-bottom: 25px;
-			}
-		}
-	}
 	.pricing-tab {
 		.tabs {
 			li.save-card {
@@ -276,22 +244,6 @@
 			}
 		}
 	}
-	.choose-us-area {
-		.chooses-img-contant {
-			margin-bottom: 30px;
-			.choose-us-img {
-				text-align: center;
-				.popup-video {
-					left: 0;
-					right: 0;
-					margin: auto;
-				}
-				.choose-img {
-					left: 0;
-				}
-			}
-		}
-	}
 	.who-iam-area {
 		.who-iam-are-img {
 			margin-top: 30px;
@@ -341,140 +293,6 @@
 				.shape-23 {
 					top: -80px;
 				}
-			}
-		}
-	}
-	.fun-facts-area {
-		.single-fun-facts {
-			padding-left: 80px;
-			i {
-				width: 60px;
-				height: 60px;
-				font-size: 30px;
-				line-height: 60px;
-			}
-			h3 {
-				font-size: 30px;
-			}
-		}
-	}
-	.choose-us-area {
-		.chooses-img-contant {
-			.section-title {
-				h2 {
-					font-size: 35px;
-				}
-			}
-			.choose-us-img {
-				.choose-img {
-					left: -30px;
-				}
-			}
-		}
-	}
-	.seo-banner-area {
-		.seo-img-contant {
-			.seo-img {
-				.seo-img-2 {
-					right: -25px;
-				}
-			}
-		}
-		.seo-banner-text {
-			h1 {
-				font-size: 45px;
-				margin-bottom: 25px;
-			}
-		}
-		.seo-shape2 {
-			.shape-14 {
-				bottom: 15px;
-			}
-		}
-	}
-	.about-us-area {
-		.about-us-text {
-			.about-card {
-				padding-left: 55px;
-				h3 {
-					font-size: 35px;
-				}
-				p {
-					font-size: 14px;
-				}
-			}
-		}
-	}
-	.choose-card {
-		h3 {
-			font-size: 22px;
-		}
-	}
-	.pricing-tab {
-		.tabs {
-			li.save-card {
-				right: 27%;
-			}
-		}
-	}
-	.startup-banner-area {
-		.startup-banner-text {
-			h1 {
-				font-size: 45px;
-				line-height: 1.4;
-				margin-bottom: 30px;
-			}
-		}
-		.banner-video-contant {
-			.popup-video {
-				left: 0;
-				right: 0;
-				top: 50%;
-				-webkit-transform: translateY(-50%) !important;
-				transform: translateY(-50%) !important;
-				bottom: auto;
-			}
-		}
-	}
-	.about-us-two {
-		.about-two-img {
-			.about-shape {
-				.shape-17 {
-					max-width: 420px;
-				}
-			}
-		}
-	}
-	.aweseome-area {
-		.aweseome-img {
-			.awesome-1 {
-				max-width: 100%;
-			}
-		}
-	}
-	.case-study-card {
-		.caption {
-			padding: 30px 22px;
-			.study-text {
-				h3 {
-					font-size: 20px;
-					margin-bottom: 5px;
-				}
-				p {
-					margin-bottom: 0;
-				}
-			}
-		}
-	}
-	.studying-slider.owl-theme {
-		.owl-nav {
-			.owl-prev {
-				left: 40px;
-			}
-			.owl-next {
-				left: 40px;
-				left: auto;
-				right: 40px;
 			}
 		}
 	}
